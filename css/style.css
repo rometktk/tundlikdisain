@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: "Roboto Mono", monospace;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/image5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+
+@media (min-width: 480px) {
+    .container {
+        background-color: rgb(202, 220, 37);
+        color: rgb(161, 128, 86);
+        width: 100%;
+    }
+
+    .image-container {
+        background-image: url('../img/image1.jpg');
+    }
+    
+
+    .navigation ul li {
+        border: 1px solid rgb(4, 4, 136);
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .container {
+        background-color: rgba(72, 9, 9, 0.457);
+        color: rgba(150, 150, 35, 0.523);
+        width: 100%;
+    }
+
+    .image-container {
+        background-image: url('../img/image2.jpg');
+    }
+    
+
+    .navigation ul li {
+        border: 1px solid rgb(202, 68, 202);
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+}
+
+@media (min-width: 1024px){
+    .container {
+        background-color: rgb(20, 96, 126);
+        color: black;
+        width: 100%;
+    }
+
+    .image-container {
+        background-image: url('../img/image3.jpg');
+    }
+    
+
+    .navigation ul li {
+        border: 1px solid rgb(131, 78, 4);
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        background-color: rgba(77, 11, 11, 0.648);
+        color: rgb(2, 125, 57);
+        width: 100%;
+    }
+
+    .image-container {
+        background-image: url('../img/image4.jpg');
+    }
+    
+
+    .navigation ul li {
+        border: 1px solid rgb(15, 114, 114);
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+    .header h1 {
+        margin: 3rem auto;
+    }
+    .navigation ul li {
+        display: inline-block;
+        width: 16rem;
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid black;
+        margin-right: 4rem;
+    }
+
+    .main-container {
+        width: 75%;
+    }
+
+}
